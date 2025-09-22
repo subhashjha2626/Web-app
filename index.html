@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animal Image Search</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+    input, button { padding: 10px; margin: 10px; font-size: 16px; }
+    img { margin-top: 20px; max-width: 400px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Enter an Animal (cat / dog)</h2>
+  <input type="text" id="animalInput" placeholder="Type 'cat' or 'dog'">
+  <button onclick="getAnimalImage()">Show Image</button>
+  <div>
+    <img id="animalImage" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
